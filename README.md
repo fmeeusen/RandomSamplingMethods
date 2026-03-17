@@ -5,9 +5,7 @@ Please have a look at the report before trying to figure out the code
 
 The field of random number generation algorithms describes procedures for generating independent observations from a particular standard distribution, such as the Normal or Poisson distribution. These random samples can be used as an important tool for various applications in fields such as, statistics, physics, computer science and engineering.
 \\
-\\
 Most modern computer software packages are already equipped with functions that can generate random samples from a whole variety of distributions. However,  it is still useful and interesting to know how these functions exactly generate these samples, since the choice of sampling algorithm or function depends on the specific requirements of the desired distribution and the limitations of each algorithm.  
-\\
 \\
 Note that most software packages are also capable of generating pseudo-random real numbers. These are real numbers that seem to be random but are actually generated using deterministic procedures, as this is the way for computers to operate. However, from a practical point of view, these numbers can be treated to be truly random.  Taking advantage of this property, it is possible to create an Uniform distribution with a range between 0 and 1. The random number generating algorithms describe a set of steps to transform this created random Uniform distribution into the distribution that is desired . 
 \\
